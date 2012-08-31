@@ -28,7 +28,6 @@
 
 #import <Foundation/Foundation.h>
 #import "ServerBrowserDelegate.h"
-#import "myDefs.h"
 
 @interface ServerBrowser : NSObject <NSNetServiceBrowserDelegate>{
   NSNetServiceBrowser* netServiceBrowser;

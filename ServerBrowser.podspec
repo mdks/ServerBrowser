@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "ServerBrowser"
-  s.version      = "0.0.1"
-  s.summary      = "Finds local bonjour servers"
+  s.version      = "0.1"
+  s.summary      = "Finds local bonjour servers."
   s.homepage     = "http://mobileorchard.com/tutorial-networking-and-bonjour-on-iphone/"
   s.license      = {
     :type => 'MIT',
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author       = { "Peter Bakhyryev" => "peter@byteclub.com" }
-  s.source       = { :git => "https://github.com/mdks/ServerBrowser.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/mdks/ServerBrowser.git", :tag => "0.1" }
   s.platform     = :ios
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
 end
